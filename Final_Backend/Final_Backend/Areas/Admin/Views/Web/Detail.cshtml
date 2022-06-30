@@ -1,0 +1,10 @@
+﻿@model Web
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<img src="~/assets/img/@Model.ImageUrl" />
+<h1>Description:@Model.Description</h1>
+
+<a class="btn btn-dark" asp-controller="Web" asp-action="Index">Back</a>
+

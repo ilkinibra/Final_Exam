@@ -1,0 +1,18 @@
+#page-intro{
+    background-image: url(../img/workspace-main.jpg);
+    padding: 20rem;
+    .intro-image{
+        text-align: center;
+    }
+    .intro-title{
+        text-align: center;
+        color: white;
+        h1{
+            font-weight: 400;
+            font-size: 4rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+       }
+}

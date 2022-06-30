@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#navbarNav {
+  margin-left: 60rem;
+}
+
+#navbarNav a {
+  color: black;
+}
+
+#navbarNav a:hover {
+  color: purple;
+}
+
+.container-fluid {
+  margin-left: 10rem;
+}
+
+#page-intro {
+  background-image: url(../img/workspace-main.jpg);
+  padding: 20rem;
+}
+
+#page-intro .intro-image {
+  text-align: center;
+}
+
+#page-intro .intro-title {
+  text-align: center;
+  color: white;
+}
+
+#page-intro .intro-title h1 {
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+#page-intro .intro-title p {
+  font-size: 1rem;
+}
+
+#what-is {
+  padding-top: 3rem;
+}
+
+#what-is .col-6 h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+#what-is .col-6 p {
+  margin-top: 2rem;
+  color: gray;
+}
+
+#card {
+  margin-top: 3rem;
+}
+
+#card .card {
+  border: none;
+}
+
+#card .card img {
+  width: 300px;
+  height: 280px;
+}
+
+#card .card .card-body {
+  text-align: center;
+}
+
+#card .card .card-body h5 {
+  font-size: 2rem;
+}
+
+#card .card .card-body h4 {
+  font-weight: 400;
+  color: gray;
+}
+
+#card .card .card-body p {
+  color: gray;
+}
+
+#card .card .card-image {
+  text-align: center;
+}
+
+#web-card {
+  margin-top: 5rem;
+  background-image: url(../img/workspace-sub.jpg);
+  padding: 15rem;
+}
+
+#web-card .card {
+  border: none;
+  background-color: transparent;
+}
+
+#web-card .card img {
+  width: 100px;
+  height: 80px;
+}
+
+#web-card .card .web-image {
+  text-align: center;
+}
+
+#web-card .card .card-body {
+  text-align: center;
+  color: gray;
+}
+
+#contact-us {
+  background-color: black;
+  padding: 7rem;
+}
+
+#contact-us .facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
+}
+
+#contact-us .twitter {
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+#contact-us .google {
+  background-color: #d6492f;
+  color: #ffffff;
+}
+
+#contact-us .apple {
+  background-color: #424041;
+  color: #ffffff;
+}
+
+#contact-us .title {
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#contact-us .contact-title {
+  margin-top: 3rem;
+}
+
+#contact-us .contact-title p {
+  font-size: 1rem;
+  color: white;
+}
+
+#contact-us .form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+  padding-top: 3rem;
+}
+
+#contact-us .form-control,
+#contact-us textarea {
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#contact-us .send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 60px;
+  overflow: hidden;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color: plum;
+  color: white !important;
+}
+
+#contact-us .send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+  color: white !important;
+}
+/*# sourceMappingURL=index.css.map */

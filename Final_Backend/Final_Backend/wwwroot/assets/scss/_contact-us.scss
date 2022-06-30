@@ -1,0 +1,70 @@
+#contact-us{
+    background-color: black;
+    padding: 7rem;
+    .facebook {
+        background-color: #4e71a8;
+        color: #ffffff;
+    }
+    
+    .twitter {
+        background-color: #55acee;
+        color: #ffffff;
+    }
+    
+    .google {
+        background-color: #d6492f;
+        color: #ffffff;
+    }
+    
+    .apple {
+        background-color: #424041;
+        color: #ffffff;
+    }
+    .title{
+        color: white;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .contact-title{
+        margin-top: 3rem;
+        p{
+            font-size: 1rem;
+            color: white;
+        }
+    }
+    .form-horizontal {
+        /*float: left;*/
+        max-width: 400px;
+        font-family: 'Lato';
+        font-weight: 400;
+        padding-top: 3rem;
+      }
+      
+      .form-control, 
+      textarea {
+        max-width: 400px;
+        background-color: #000;
+        color: #fff;
+        letter-spacing: 1px;
+      }
+      
+      .send-button {
+        margin-top: 15px;
+        height: 34px;
+        width: 60px;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+        background-color:plum;
+        color: white !important;
+      }
+      
+      
+      .send-text {
+        display: block;
+        margin-top: 10px;
+        font: 700 12px 'Lato', sans-serif;
+        letter-spacing: 2px;
+        color: white !important;
+      }
+      
+}

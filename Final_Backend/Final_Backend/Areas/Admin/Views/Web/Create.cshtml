@@ -1,0 +1,32 @@
+﻿@model Web
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <div class="row">
+        <form class="forms-sample" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Photo">Image</label>
+                <input asp-for="Photo" placeholder="Image">
+                <span asp-validation-for="Photo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title">Title</label>
+                <input asp-for="Title" placeholder="Title">
+                <span asp-validation-for="Title" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Description">Description</label>
+                <input asp-for="Description" placeholder="Description">
+                <span asp-validation-for="Description" class="text-danger"></span>
+
+            </div>
+
+            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+            <button class="btn btn-light" asp-action="Index" asp-controller="Web">Cancel</button>
+        </form>
+    </div>
+</div>
+

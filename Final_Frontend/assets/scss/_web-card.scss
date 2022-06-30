@@ -1,0 +1,21 @@
+#web-card{
+    margin-top: 5rem;
+    background-image: url(../img/workspace-sub.jpg);
+    padding: 15rem;
+    .card{
+        border: none;
+        background-color: transparent;
+        img{
+            width: 100px;
+            height: 80px;
+        }
+        .web-image{
+            text-align: center;
+        }
+        .card-body{
+            text-align: center;
+            color: gray;
+        }
+    }
+
+}
